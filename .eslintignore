@@ -1,0 +1,28 @@
+# Pastas ignoradas pelo ESLint
+
+# Relatório de cobertura de código do Jest
+coverage
+
+# Pasta da build
+dist
+
+# Pastas
+tests
+
+# Documentação autogerada
+# Contém arquivos JS que darão erro ao rodar o ESLint.
+docs
+docs-html
+
+# Arquivos JS de config
+# ESLint está setado para Typescript, e esses arquivos darão erro.
+.eslintrc.js
+jest.config.ts
+
+# Outras pastas
+ccoe
+node_modules
+serverless
+
+# Outros arquivos
+*.ignore.ts
