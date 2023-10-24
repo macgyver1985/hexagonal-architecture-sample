@@ -15,11 +15,14 @@
       "@application/*": [
         "./src/application/*"
       ],
+      "@crossCutting/*": [
+        "./src/crossCutting/*"
+      ],
       "@infrastructure/*": [
         "./src/infrastructure/*"
       ],
-      "@ui/*": [
-        "./src/ui/*"
+      "@main/*": [
+        "./src/main/*"
       ],
       "@tests/*": [
         "./src/tests/*"
